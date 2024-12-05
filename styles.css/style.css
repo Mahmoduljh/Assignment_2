@@ -64,6 +64,15 @@
 .website-name .web-text-color{
     color: var(--primary-color);
 }
+
+.check-btn{
+    font-size: 1.75rem;
+    color: #131318;
+    display: none;
+}
+#check{
+    display: none;
+}
 .navigation > .nav{
     display: flex;
     align-items: center;
@@ -141,3 +150,20 @@
 .banner-form select:hover{
     border: 2px solid var(--primary-color);
 }
+
+/* tour section css part */
+#tour{
+    margin: 100px 0;
+}
+.tour-container{
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+.tour-text{
+    width: 47%;
+}
+
+
+
+
