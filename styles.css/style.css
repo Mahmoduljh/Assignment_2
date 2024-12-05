@@ -221,7 +221,7 @@
     align-items: center;
     justify-content: center;
     color: #FFF;
-    font-family:"Mulish", sans-serif; ;
+    font-family:"Mulish", sans-serif; 
     font-size: 1.5rem;
     font-weight: 800;
 }
@@ -261,7 +261,59 @@
     grid-row: 3/ span 1;
 }
 /* End destination css section part */
+/* choose section css part style */
+#choose{
+    border: 2px solid rgb(0, 255, 34);
+    margin: 100px 0;
+}
+.choose-content{
+    border: 2px solid red;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
 
+}
+.choose-box{
+    /* border: 2px solid tomato; */
+    padding: 32px 16px;
+    width: 510px;
+    border-radius: 16px;
+}
+.choose-box img{
+    width: 66px;
+}
+.box-yellow{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-sky{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.box-darkyellow{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-title{
+    color: var(--secondary-color);
+    font-family: "Mulish", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.choose-description{
+    color: #5A5A5D;
+    font-family: "Mulish", sans-serif; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* End Choose section css part */
 
 
 
