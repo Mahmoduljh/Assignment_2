@@ -401,9 +401,39 @@
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 /* End place css part */
+/* enjoy section css part start */
+#enjoy{
+    margin: 100px 0px;
+}
 
-
-
+.enjoy-tour{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 48px;
+}
+.enjoy-content{
+    width: 225px;
+    padding: 30px 30px;
+    background: rgba(251, 181, 99, 0.05);
+    border: 2px solid rgba(251, 181, 99, 0.20);
+    border-radius: 15px;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+.enjoy-content:hover{
+    background: var(--third-color);
+}
+.enjoy-content img{
+    width: 64px;
+}
+.enjoy-content-title {
+    color: var(--secondary-color);
+    font-family: "Mulish", sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+/* End enjoy section css part */
 
 /* footer style css part sart
 #footer{
