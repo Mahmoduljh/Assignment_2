@@ -315,5 +315,109 @@
 }
 /* End Choose section css part */
 
+/* deals style css part start */
+.deals-content{
+    /* border: 2px solid tomato; */
+    background-image:url(../images/Group\ 39.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-top: 24px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.deals-another{
+    justify-content: flex-start;
+}
+.deals-text{
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    background: rgb(255, 255, 255, 0.80);
+    backdrop-filter:blur(2.5px);
+    padding: 50px;
+    width: 500px;
+    margin-right: 60px;
+}
+.customize-text{
+    margin-left: 60px;
+}
+.deals-price{
+    color: var(--primary-color);
+    font-family: "Mulish", sans-serif; 
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.date-time{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.date-time p{
+    color: #5A5A5D;
+    font-family: "Mulish", sans-serif; 
+    font-size: 1rem;
+    font-weight: 400;
+}
+.date-time .date-color{
+    color: var(--primary-color);
+    padding: 8px;
+}
+/* End deals styles part css */
+
+
+
+
+
+/* footer style css part sart
+#footer{
+    background: rgba(18, 18, 24, 0.05);
+    padding: 110px 0;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-description{
+    width: 796px;
+    color: #5A5A5D;
+    font-family: "Mulish", sans-serif; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto 33px auto;
+}
+.footer-container .social-link{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.footer-reserved{
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+} */
+
 
 
